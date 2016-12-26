@@ -46,7 +46,7 @@
     </config-file>
 
     <config-file parent="/resources" target="./res/values/strings.xml">
-        <string name="applovin_sdk_key">$APPLOVIN_ANDROID_SDK_KEY</string>
+        <string name="applovin_sdk_key" translatable="false">$APPLOVIN_ANDROID_SDK_KEY</string>
     </config-file>
 
     <framework src="src/android/applovin.gradle" custom="true" type="gradleReference" />
